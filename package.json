@@ -1,22 +1,11 @@
 {
+  "scripts": {
+    "start": "node app.js"
+  },
+
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "mongoose": "^8.3.2"
-  },
-  "name": "api_rest_mong",
-  "description": "",
-  "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {
-    "jest": "^29.7.0",
-    "supertest": "^6.3.4"
-  },
-  "scripts": {
-    "start": "node app.js",
-    "test": "jest --detectOpenHandles --forceExit"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "mongoose": "^8.3.3"
+  }
 }
